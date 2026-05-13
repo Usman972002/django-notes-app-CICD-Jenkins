@@ -2,8 +2,7 @@ version: "3.8"
 
 services:
   django_app:
-    build:
-      context: .
+    image: "usman1978/node-app:latest"
     ports:
       - "8000:8000"
  
